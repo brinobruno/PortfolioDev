@@ -10,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
 
     --purple: #DF5FFF;
     --green: #27d224;
+
+    --opening-font: 5rem;
+    --opening-subtitle: 1.82rem;
+    --heading-title: 2.875rem;
+    --body-text-font: 1.125rem; //18px
   }
 
   * {
