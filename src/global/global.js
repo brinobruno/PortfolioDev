@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
+import backgroundImg from '../assets/images/background.png'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -35,22 +36,39 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialised;
+    background-image: url(${backgroundImg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   body, input, textarea, button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+
+    color: var(--body-text-color)
   }
   
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: 700;
+
+    color: var(--body-text-color)
   }
 
   span {
     font-family: 'Fira Code', 'consolas', sans-serif;
   }
 
-  button {
+  button, a {
     cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(---body-text-color);
   }
 `
