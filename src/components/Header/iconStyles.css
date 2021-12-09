@@ -1,0 +1,14 @@
+.githubIcon:hover path {
+  fill: #66ecbc;
+  transition: 0.4s;
+}
+
+.linkedinIcon:hover path {
+  fill: #66ecbc;
+  transition: 0.4s;
+}
+
+.emailIcon:hover path {
+  fill: #66ecbc;
+  transition: 0.4s;
+}
