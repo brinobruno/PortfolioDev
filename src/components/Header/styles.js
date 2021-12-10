@@ -16,29 +16,35 @@ export const Content = styled.div `
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
     justify-content: center;  // UNDO HERE TO FLEX-END(ICON SIDE)
+    flex-direction: column;
   }
 `
 
 export const Nav = styled.nav `
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    overflow: none;
+    flex-direction: column;
+  }
 `
 
 export const NavMenu = styled.div `
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: column;
 
   gap: 2.813rem;
 
   @media screen and (max-width: 768px) {
     overflow: none;
     flex-direction: column;
+    padding-top: 2rem;
 
-    height: ${({menuClicked}) => (menuClicked ? '300px' : '0')};
     display: ${({menuClicked}) => (menuClicked ? 'flex' : 'none')};
 
-    transition: 5s;
+    transition: height 0.5s;
   }
 `
 
@@ -49,16 +55,17 @@ export const NavIcons = styled.nav `
 
   gap: 1rem;
 
-  padding: 2rem 0;
-  z-index: 99;
+  padding: 1rem 0;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    flex-direction: row;
+    padding-top: 2.25rem;
+
+    display: ${({menuClicked}) => (menuClicked ? 'flex' : 'none')};
   }
 `
 
 export const NavLink = styled.a `
-  display: flex;
   align-items: center;
 
   font-weight: 700;
@@ -67,5 +74,9 @@ export const NavLink = styled.a `
   &:hover {
     color: var(--primary-color);
     transition: 0.4s;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.65rem;
   }
 `

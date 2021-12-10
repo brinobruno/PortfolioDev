@@ -18,7 +18,7 @@ export function Header() {
     <Container>
       <Content>
         <Nav>
-            <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           <NavMenu menuClicked={menuClicked}>
             <NavLink href="#">
               About me
@@ -34,7 +34,7 @@ export function Header() {
             </NavLink>
           </NavMenu>
         </Nav>
-          <NavIcons>
+          <NavIcons menuClicked={menuClicked}>
             <NavLink href="#">
             <GithubIcon className="githubIcon" />
             </NavLink>

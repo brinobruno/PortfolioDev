@@ -22,11 +22,12 @@
 
 @media screen and (max-width: 768px) {
   #menu-icon-switch {  
-    display: flex;
-    justify-self: flex-end;
+    display: inline-block;
+    text-align: right;
     position: relative;
     cursor: pointer;
 
+    margin-left: 85vw;
     margin-right: 2rem;
   }
 }
