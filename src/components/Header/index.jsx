@@ -12,14 +12,13 @@ export function Header() {
 
   function handleMenuOpen () {
     setMenuClicked(!menuClicked)
-    console.log(menuClicked)
   }
 
   return (
     <Container>
       <Content>
+            <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         <Nav>
-            <i onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           <NavMenu>
             <NavLink href="#">
               About me
