@@ -35,13 +35,13 @@ export function Header() {
           </NavMenu>
         </Nav>
           <NavIcons menuClicked={menuClicked}>
-            <NavLink href="#">
+            <NavLink target="_blank" href="https://github.com/brinobruno">
             <GithubIcon className="githubIcon" />
             </NavLink>
-            <NavLink href="#">
+            <NavLink target="_blank" href="https://www.linkedin.com/in/brunociao/">
               <LinkedinIcon className="linkedinIcon" />
             </NavLink>
-            <NavLink href="#">
+            <NavLink target="_blank" href="mailto:brunosantos6ft@gmail.com">
              <EmailIcon className="emailIcon" />
             </NavLink>
           </NavIcons>
