@@ -15,17 +15,13 @@ export const Content = styled.div `
 
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
-    justify-content: flex-end;
+    justify-content: center;  // UNDO HERE TO FLEX-END(ICON SIDE)
   }
 `
 
 export const Nav = styled.nav `
   display: flex;
   align-items: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `
 
 export const NavMenu = styled.div `
@@ -35,7 +31,15 @@ export const NavMenu = styled.div `
 
   gap: 2.813rem;
 
-  z-index: 100;
+  @media screen and (max-width: 768px) {
+    overflow: none;
+    flex-direction: column;
+
+    height: ${({menuClicked}) => (menuClicked ? '300px' : '0')};
+    display: ${({menuClicked}) => (menuClicked ? 'flex' : 'none')};
+
+    transition: 5s;
+  }
 `
 
 export const NavIcons = styled.nav `

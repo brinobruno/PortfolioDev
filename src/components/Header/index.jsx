@@ -17,9 +17,9 @@ export function Header() {
   return (
     <Container>
       <Content>
-            <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         <Nav>
-          <NavMenu>
+            <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <NavMenu menuClicked={menuClicked}>
             <NavLink href="#">
               About me
             </NavLink>

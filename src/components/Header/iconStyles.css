@@ -22,7 +22,8 @@
 
 @media screen and (max-width: 768px) {
   #menu-icon-switch {  
-    display: block;
+    display: flex;
+    justify-self: flex-end;
     position: relative;
     cursor: pointer;
 
