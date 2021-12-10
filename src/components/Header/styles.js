@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.header `
   background: #0E0E0E;
-  position: fixed;
+  overflow: hidden;
   width: 100%;
+  position: fixed;
 `
 
 export const Content = styled.div `

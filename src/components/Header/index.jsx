@@ -4,7 +4,7 @@ import { ReactComponent as GithubIcon } from '../../assets/userIcons/github.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/userIcons/linkedin.svg'
 import { ReactComponent as EmailIcon } from '../../assets/userIcons/email.svg'
 
-import "./iconStyles.css";
+import './iconStyles.css'
 import { Container, Content, Nav, NavMenu, NavIcons, NavLink } from './styles'
 
 export function Header() {
