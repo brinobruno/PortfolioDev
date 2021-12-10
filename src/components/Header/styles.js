@@ -13,9 +13,13 @@ export const Content = styled.div `
   justify-content: space-between;
   align-items: center;
 
+  @media screen and (max-width: 968px) {
+    max-width: 730px;
+  }
+
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
-    justify-content: center;  // UNDO HERE TO FLEX-END(ICON SIDE)
+    justify-content: center;
     flex-direction: column;
   }
 `
@@ -55,7 +59,7 @@ export const NavIcons = styled.nav `
 
   gap: 1rem;
 
-  padding: 1rem 0;
+  padding: 2rem 0;
 
   @media screen and (max-width: 768px) {
     flex-direction: row;
