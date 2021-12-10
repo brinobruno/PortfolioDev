@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import { FaBars } from 'react-icons/fa'
-
 export const Container = styled.header `
   background: #0E0E0E;
   position: fixed;
@@ -65,20 +63,5 @@ export const NavLink = styled.a `
   &:hover {
     color: var(--primary-color);
     transition: 0.4s;
-  }
-`
-
-export const Bars = styled(FaBars) `
-  display: none;
-  color: var(--body-text-color);
-  width: 24px;
-  height: 24px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 1.8rem;
-    display: block;
-    position: relative;
-
-    margin-right: 2rem;
   }
 `

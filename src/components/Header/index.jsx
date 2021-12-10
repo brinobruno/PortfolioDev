@@ -1,16 +1,25 @@
+import React, { useState } from 'react'
+
 import { ReactComponent as GithubIcon } from '../../assets/userIcons/github.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/userIcons/linkedin.svg'
 import { ReactComponent as EmailIcon } from '../../assets/userIcons/email.svg'
 
 import "./iconStyles.css";
-import { Container, Content, Nav, NavMenu, NavIcons, NavLink, Bars } from './styles'
+import { Container, Content, Nav, NavMenu, NavIcons, NavLink } from './styles'
 
 export function Header() {
+  let [menuClicked, setMenuClicked] = useState(false)
+
+  function handleMenuOpen () {
+    setMenuClicked(!menuClicked)
+    console.log(menuClicked)
+  }
+
   return (
     <Container>
       <Content>
-        <Bars />
         <Nav>
+            <i onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           <NavMenu>
             <NavLink href="#">
               About me
