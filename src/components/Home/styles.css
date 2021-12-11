@@ -1,0 +1,8 @@
+#download-home {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) , #0E8B5E);
+  border: 2px solid #0E8B5E;
+}
+
+#download-home img {
+  padding-left: 0.25rem;
+} 
