@@ -4,9 +4,6 @@ import Modal from 'react-modal'
 import englishCV from '../../assets/resume/BrunoCorrea Resume EN_us.pdf'
 import portugueseCV from '../../assets/resume/BrunoCorrea Resume PT_br.pdf'
 
-//path '../../assets/resume/BrunoCorrea Resume EN_us.pdf'
-//path '../../assets/resume/BrunoCorrea Resume PT_br.pdf'
-
 import { Container, Content, Text, Title, Subtitle, DownloadHome, ModalContainer } from './styles'
 
 import brunoImg from '../../assets/images/brunoImg.png'
