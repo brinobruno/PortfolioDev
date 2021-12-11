@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import Modal from 'react-modal'
 
+import englishCV from '../../assets/resume/BrunoCorrea Resume EN_us.pdf'
+import portugueseCV from '../../assets/resume/BrunoCorrea Resume PT_br.pdf'
+
 //path '../../assets/resume/BrunoCorrea Resume EN_us.pdf'
 //path '../../assets/resume/BrunoCorrea Resume PT_br.pdf'
 
@@ -49,8 +52,8 @@ export function Home() {
             <ModalContainer>
               <h3>Download my Resumé</h3>
               <div>
-              <button>In English <img src={downloadIcon} alt="Download" /> </button>
-              <button>Em português <img src={downloadIcon} alt="Download" /> </button>
+              <button><a target='_blank' href={englishCV}>In English</a> <img src={downloadIcon} alt="Download" /> </button>
+              <button><a target='_blank' href={portugueseCV}>Em português</a> <img src={downloadIcon} alt="Download" /> </button>
               </div>
             </ModalContainer>
           </Modal>

@@ -84,7 +84,6 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .react-modal-content {
@@ -109,7 +108,7 @@ export const GlobalStyle = createGlobalStyle`
     transition: filter 0.25s;
 
     &:hover {
-    filter: brightness(0.8)
+      filter: brightness(0.8)
     }
   }
 `
