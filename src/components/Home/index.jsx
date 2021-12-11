@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-import { Container, Content, Text, Title, Subtitle, DownloadHome } from './styles'
+import { Container, Content, Text, Title, Subtitle, DownloadHome, ModalContainer } from './styles'
 import brunoImg from '../../assets/images/brunoImg.png'
 
 import downloadIcon from '../../assets/userIcons/download.svg'
@@ -30,8 +30,17 @@ export function Home() {
           <Modal
           isOpen={isDownloadCVModalOpen}
           onRequestClose={handleCloseDownloadCVModal}
+
+          //style
+          overlayClassName='react-modal-overlay'
+          className='react-modal-content'
           >
-            <h3>Download my Resumé</h3>
+            <ModalContainer>
+              <h3>Download my Resumé</h3>
+
+              <button>In English <img src={downloadIcon} alt="Ícone de download" /> </button>
+              <button>Em português <img src={downloadIcon} alt="Ícone de download" /> </button>
+            </ModalContainer>
           </Modal>
         </Text>
         <img id="bruno-img" src={brunoImg} alt="Foto de Bruno Corrêa" />

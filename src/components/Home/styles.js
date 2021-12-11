@@ -74,3 +74,7 @@ export const DownloadHome = styled.button `
   height: 2.875rem;
   border-radius: 6px;
 `
+
+export const ModalContainer = styled.div `
+
+`
