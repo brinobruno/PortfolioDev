@@ -1,6 +1,13 @@
 #download-home {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 1) , #0E8B5E);
   border: 2px solid #0E8B5E;
+  filter: brightness(0.92);
+}
+
+#download-home:hover {
+  filter: brightness(1);
+  transition: filter 0.3s ease-in;
+  background-image: linear-gradient(to right, #0E8B5E , #0E8B5E);
 }
 
 #download-home img {
