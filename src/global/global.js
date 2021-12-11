@@ -57,6 +57,7 @@ export const GlobalStyle = createGlobalStyle`
 
   span {
     font-family: 'Fira Code', 'consolas', sans-serif;
+    color: var(--shade-color)
   }
 
   button, a {
