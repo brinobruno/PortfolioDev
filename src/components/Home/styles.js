@@ -76,5 +76,40 @@ export const DownloadHome = styled.button `
 `
 
 export const ModalContainer = styled.div `
+  h3 {
+    color: var(--body-text-color-alt);
+    font-size: var(--opening-subtitle);
+    text-align: center;
+    padding-top: 0.85rem;
+  }
 
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    color: var(--body-text-color);
+    background-color: #121212;
+    font-size: 1.375rem;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 0.563rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  button:first-child {
+    margin: 0.815rem 0 1.25rem 0;
+  }
+
+  button:hover {
+    color: var(--primary-color);
+    transition: 0.3s ease;
+  }
+
+  img {
+    padding-left: 0.25rem;
+  }
 `
