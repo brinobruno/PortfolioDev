@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { AboutMe } from './components/AboutMe'
 import { Skills } from './components/Skills'
+import { Projects } from './components/Projects'
 import { GlobalStyle } from './global/global'
 
 export function App() {
@@ -11,6 +12,7 @@ export function App() {
       <Home />
       <AboutMe />
       <Skills />
+      <Projects />
       <GlobalStyle />
     </>
   );
