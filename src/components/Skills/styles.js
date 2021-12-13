@@ -13,6 +13,7 @@ export const Container = styled.section `
 
   @media screen and (max-width: 968px) {
     max-width: 730px;
+    height: 110vh;
   }
 `
 
@@ -24,6 +25,10 @@ export const Content = styled.div `
 
   @media screen and (max-width: 768px) {
     padding: 0 3.313rem;
+  }
+
+  @media screen and (max-width: 415px) {
+    padding: 0 2.6rem;
   }
 `
 
@@ -44,6 +49,10 @@ export const SkillsGrid = styled.div `
   grid-row-gap: 1.25rem;
 
   padding: 1.688rem 0;
+
+  @media screen and (max-width: 968px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const SkillsItem = styled.div `
@@ -55,8 +64,15 @@ export const SkillsItem = styled.div `
   
   background-color: #1A1A1A;
   padding: 1.5rem;
-
   cursor: pointer;
+
+  @media screen and (max-width: 968px) {
+    width: 35rem;
+  }
+
+  @media screen and (max-width: 560px) {
+    width: 100%;
+  }
 
   &:hover {
     transition: 0.3s ease;
@@ -70,6 +86,12 @@ export const SkillsItem = styled.div `
 
   img {
     padding-right: 0.875rem; 
+  }
+
+  @media screen and (max-width: 415px) {
+    img {
+      width: 3.2rem;
+    }
   }
 
   .tag-divider {
@@ -98,6 +120,16 @@ export const SkillsItem = styled.div `
     p {
       padding-top: 0.6rem;
       color: #979797;
+    }
+
+    @media screen and (max-width: 450px) {
+      h4 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.7rem;
+      }
     }
   }
 `
