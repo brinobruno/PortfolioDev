@@ -9,3 +9,15 @@ As for the project itself, I'm commited to make it with React and afterwards, wo
 
 I made the UI design using Figma, not 100% complete as well and I hope to reach an optimal result. This is the link if you wish to see it:
 https://www.figma.com/file/dQw0X1ntskAc5nVTt3I6aw/Portfolio-V2-ReactJS-NextJS?node-id=0%3A1
+
+If you want to run the project (unfinished as of today):
+
+- Clone repository
+
+on cli/vscode:
+- yarn
+- yarn start
+
+will be available at localhost:3000
+
+Happy Hacking!
