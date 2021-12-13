@@ -5,6 +5,7 @@ export const Container = styled.header `
   overflow: hidden;
   width: 100%;
   position: fixed;
+  z-index: 100;
 `
 
 export const Content = styled.div `
