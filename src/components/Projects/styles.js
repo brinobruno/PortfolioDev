@@ -62,7 +62,8 @@ export const ProjectsContainer = styled.div `
   }
   
   img {
-    padding: 0 2.813rem 1.5rem 0;
+    margin: 0 2.813rem 1.5rem 0;
+    cursor: pointer;
   }
 
   .projects-list {
