@@ -32,6 +32,12 @@ export const Content = styled.div `
     #bruno-img {
       width: 22rem;
     }
+
+    @media screen and (max-width: 437px) {
+      #bruno-img {
+        width: 19rem;
+      }
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -52,6 +58,10 @@ export const Title = styled.h1 `
 
   @media screen and (max-width: 768px) {
     font-size: 4rem;
+  }
+
+  @media screen and (max-width: 437px) {
+    font-size: 3.7rem;
   }
 `
 

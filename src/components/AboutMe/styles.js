@@ -29,6 +29,10 @@ export const Content = styled.div `
 
 export const Text = styled.div `
   padding-top: 5.313rem;
+
+  @media screen and (max-width: 638px) {
+    padding-top: 1.713rem;
+  }
 `
 
 export const TextContent = styled.p `
@@ -44,6 +48,14 @@ export const TextContent = styled.p `
 
   @media screen and (max-width: 768px) {
     max-width: 76%;
+  }
+
+  @media screen and (max-width: 638px) {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 438px) {
+    font-size: 0.91rem;
   }
 `
 
