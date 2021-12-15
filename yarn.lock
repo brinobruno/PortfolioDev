@@ -6407,7 +6407,7 @@ jest-cli@^26.6.0:
     exit "^0.1.2"
     graceful-fs "^4.2.4"
     import-local "^3.0.2"
-    is-ci "^2.0.0"
+    is-"^2.0.0"
     jest-config "^26.6.3"
     jest-util "^26.6.2"
     jest-validate "^26.6.2"
