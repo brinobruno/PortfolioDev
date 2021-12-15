@@ -37,27 +37,28 @@ export const Code = styled.span ``
 export const ProjectsContainer = styled.div `
   display: flex;
   padding-top: 2.813rem;
+`
 
-  .project-display {
+
+export const ProjectDisplay = styled.div `
+  display: flex;
+  flex-direction: column;
+
+  div {
     display: flex;
-    flex-direction: column;
+    gap: 1.065rem;
+  }
 
-    div {
-      display: flex;
-      gap: 1.065rem;
-    }
+  button {
+    background-color: #1A1A1A;
+    border: none;
+    padding: 0.438rem 1.18rem;
+    font-size: var(--body-text-font);
+    border-radius: 0.375rem;
 
-    button {
-      background-color: #1A1A1A;
-      border: none;
-      padding: 0.438rem 1.18rem;
-      font-size: var(--body-text-font);
-      border-radius: 0.375rem;
-
-      &:hover {
-        transition: 0.12s ease;
-        background-color: #343434;
-      }
+    &:hover {
+      transition: 0.12s ease;
+      background-color: #343434;
     }
   }
   
@@ -65,20 +66,20 @@ export const ProjectsContainer = styled.div `
     margin: 0 2.813rem 1.5rem 0;
     cursor: pointer;
   }
+`
 
-  .projects-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.17rem;
+export const ProjectsList = styled.div `
+  display: flex;
+  flex-direction: column;
+  gap: 1.17rem;
 
-    a {
-      font-size: 1.875rem;
-      color: #696969;
+  a {
+    font-size: 1.875rem;
+    color: #696969;
 
-      &:hover {
-        transition: 0.1s ease;
-        color: #AEAEAE;
-      }
+    &:hover {
+        ransition: 0.1s ease;
+      color: #AEAEAE;
     }
   }
 `
