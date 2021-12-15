@@ -8,9 +8,10 @@ export function Form() {
     e.preventDefault()
 
     emailjs.sendForm('service_aq8r1tz', 'template_efnmnug', e.target, 'user_bQxTD8Swl6pq4HDXxaDVd')
-      .then((result) => {
-          console.log(result.text)
-      })
+      .then(result => console.log(result.text))
+
+      .catch(err => console.log(err))
+      
       e.target.reset() //form reset
   }
 
