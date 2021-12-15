@@ -14,6 +14,10 @@ export const Container = styled.section `
   @media screen and (max-width: 968px) {
     max-width: 730px;
   }
+
+  @media screen and (max-width: 768px) {
+    height: 110vh;
+  }
 `
 
 export const Content = styled.div `
@@ -24,6 +28,10 @@ export const Content = styled.div `
 
   @media screen and (max-width: 768px) {
     padding: 0 3.313rem;
+  }
+
+  @media screen and (max-width: 438px) {
+    padding: 0 1.4rem;
   }
 `
 
@@ -37,8 +45,13 @@ export const Code = styled.span ``
 export const ProjectsContainer = styled.div `
   display: flex;
   padding-top: 2.813rem;
-`
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 2.213rem;
+    gap: 2rem;
+  }
+`
 
 export const ProjectDisplay = styled.div `
   display: flex;
@@ -47,6 +60,10 @@ export const ProjectDisplay = styled.div `
   div {
     display: flex;
     gap: 1.065rem;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
   }
 
   button {
@@ -60,11 +77,32 @@ export const ProjectDisplay = styled.div `
       transition: 0.12s ease;
       background-color: #343434;
     }
+
+    @media screen and (max-width: 768px) {
+      width: 13.5rem;
+    }
+
+    @media screen and (max-width: 438px) {
+      width: 10.5rem;
+      font-size: 1rem;
+    }
   }
   
   img {
-    margin: 0 2.813rem 1.5rem 0;
+    margin: 0 2.213rem 1.5rem 0;
     cursor: pointer;
+
+    @media screen and (max-width: 968px) {
+      width: 28rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 1.5rem 0;
+    }
+
+    @media screen and (max-width: 438px) {
+      width: 22rem;
+    }
   }
 `
 
@@ -74,12 +112,16 @@ export const ProjectsList = styled.div `
   gap: 1.17rem;
 
   a {
-    font-size: 1.875rem;
+    font-size: 1.775rem;
     color: #696969;
 
     &:hover:not(.selected-item) {
       transition: 0.1s ease;
       color: #AEAEAE;
+    }
+
+    @media screen and (max-width: 968px) {
+      font-size: 1.4rem;
     }
   }
 
