@@ -18,6 +18,10 @@ export const Container = styled.section `
   @media screen and (max-width: 768px) {
     height: 110vh;
   }
+
+  @media screen and (max-width: 568px) {
+    height: 127vh;
+  }
 `
 
 export const Content = styled.div `
