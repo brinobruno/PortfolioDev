@@ -22,12 +22,12 @@ export function Projects() {
           </ProjectDisplay>
 
           <ProjectsList>
-          <a onClick={() => { setSelectedProject(Images.imgItem00) }}>Crossfit Gym Website_</a>
-          <a onClick={() => { setSelectedProject(Images.imgItem01) }}>Candy Store Website_</a>
-          <a onClick={() => { setSelectedProject(Images.imgItem02) }}>React Todo App_</a>
-          <a onClick={() => { setSelectedProject(Images.imgItem03) }}>Snake Game_</a>
-          <a onClick={() => { setSelectedProject(Images.imgItem04) }}>JSON Placeholder_</a>
-          <a onClick={() => { setSelectedProject(Images.imgItem05) }}>Personal Website_</a>
+          <a className={selectedProject === Images.imgItem00 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem00) }}>Crossfit Gym Website_</a>
+          <a className={selectedProject === Images.imgItem01 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem01) }}>Candy Store Website_</a>
+          <a className={selectedProject === Images.imgItem02 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem02) }}>React Todo App_</a>
+          <a className={selectedProject === Images.imgItem03 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem03) }}>Snake Game_</a>
+          <a className={selectedProject === Images.imgItem04 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem04) }}>JSON Placeholder_</a>
+          <a className={selectedProject === Images.imgItem05 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem05) }}>Personal Website_</a>
           </ProjectsList>
         </ProjectsContainer>
       </Content>

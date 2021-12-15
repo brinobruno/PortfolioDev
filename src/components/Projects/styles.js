@@ -77,9 +77,14 @@ export const ProjectsList = styled.div `
     font-size: 1.875rem;
     color: #696969;
 
-    &:hover {
-        ransition: 0.1s ease;
+    &:hover:not(.selected-item) {
+      transition: 0.1s ease;
       color: #AEAEAE;
     }
+  }
+
+  .selected-item {
+    color: var(--primary-color);
+    font-weight: bold;
   }
 `
