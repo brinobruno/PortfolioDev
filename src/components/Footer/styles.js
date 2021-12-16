@@ -2,18 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.section `
   display: flex;
-  justify-content: center;
   align-items: center;
 
-  padding-top: 6.18rem; //99px
   height: 13.438rem;
-  max-width: 900px;
   width: 100%;
-  margin: 0 auto;
 
-  @media screen and (max-width: 968px) {
-    max-width: 730px;
-  }
+  background-color: var(--primary-color);
 `
 
 export const Content = styled.div `
@@ -28,11 +22,33 @@ export const Content = styled.div `
 `
 
 export const Text = styled.div `
-  padding-top: 5.313rem;
+  .last-text {
+    color: var(--body-text-color-alt);
+    text-align: center;
+    padding-top: 1.538rem;
+    font-size: var(--body-text-font);
 
-  @media screen and (max-width: 638px) {
-    padding-top: 1.713rem;
+    @media screen and (max-width: 468px) {
+    font-size: 0.95rem;
+  }
   }
 `
 
-export const Code = styled.span ``
+export const FooterText = styled.p `
+  color: var(--body-text-color-alt);
+  font-size: var(--body-text-font);
+
+  @media screen and (max-width: 468px) {
+    font-size: 0.95rem;
+  }
+`
+
+export const FooterDivider = styled.div `
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const Code = styled.span `
+  color: #7C7C7C;
+`
