@@ -14,6 +14,14 @@ export const ContactForm = styled.form `
   margin-top: 1.25rem;
   gap: 1.15rem;
 
+  @media screen and (max-height: 678px) {
+    height: 28.55rem;
+  }
+
+  @media screen and (max-height: 598px) {
+    height: 27.55rem;
+  }
+
   button {
     background-color: var(--primary-color);
     color: #373737;
@@ -41,6 +49,10 @@ export const FormInputs = styled.div `
     color: var(--body-text-color);
     font-weight: 700;
     padding-bottom: 0.313rem;
+
+    @media screen and (max-height: 678px) {
+      font-size: 0.9rem;
+    }
   }
 
   input, textarea, select {
@@ -72,5 +84,9 @@ export const FormInputs = styled.div `
   textarea {
     height: 5.5rem;
     resize: none;
+
+    @media screen and (max-height: 678px) {
+      height: 3.66rem;
+    }
   }
 `
