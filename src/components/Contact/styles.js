@@ -5,7 +5,6 @@ export const Container = styled.section `
   justify-content: center;
   align-items: center;
 
-  padding-top: 6.18rem; //99px
   height: 100vh;
   max-width: 900px;
   width: 100%;
