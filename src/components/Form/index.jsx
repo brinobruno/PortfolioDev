@@ -11,7 +11,7 @@ export function Form() {
       .then(result => console.log(result.text))
 
       .catch(err => console.log(err))
-      
+
       e.target.reset() //form reset
   }
 
@@ -19,15 +19,15 @@ export function Form() {
     <ContactForm onSubmit={ sendEmail }> 
       <FormInputs>
         <label htmlFor='name' className='form-label'>
-          Name
+          Your name*
         </label>
-          <input id='name' type='text' name='name'
+          <input className='form-input' id='name' type='text' name='name'
           placeholder='Tell me your name' required/>
       </FormInputs>
 
       <FormInputs>
         <label htmlFor='email' className='form-label'>
-          E-mail
+          E-mail address*
         </label>
           <input id='email' type='email' name='email'
           placeholder='Tell me your e-mail' required />
@@ -48,7 +48,7 @@ export function Form() {
 
       <FormInputs>
         <label htmlFor='message' className='form-label'>
-          Message
+          Message*
         </label>
           <textarea id='message' type='message' name='message'
           placeholder='Hi! I’d like to talk to you about {something},' required></textarea>
