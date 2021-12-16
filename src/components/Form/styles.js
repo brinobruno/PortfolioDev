@@ -22,6 +22,18 @@ export const ContactForm = styled.form `
     height: 27.55rem;
   }
 
+  @media screen and (max-width: 388px) {
+    width: 22.25rem;
+  }
+
+  @media screen and (max-width: 338px) {
+    width: 20.25rem;
+  }
+
+  @media screen and (max-width: 316px) {
+    width: 18.2rem;
+  }
+
   button {
     background-color: var(--primary-color);
     color: #373737;
@@ -37,6 +49,10 @@ export const ContactForm = styled.form `
 
     &:hover {
       filter: brightness(1.1);
+    }
+
+    @media screen and (max-width: 338px) {
+      width: 15.938rem;
     }
   }
 `
@@ -70,6 +86,10 @@ export const FormInputs = styled.div `
 
       &:not(:placeholder-shown), &:focus {
         color: var(--primary-color);
+      }
+
+      @media screen and (max-width: 338px) {
+        width: 15.938rem;
       }
   }
 
