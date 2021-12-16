@@ -14,6 +14,14 @@ export const Container = styled.section `
   @media screen and (max-width: 968px) {
     max-width: 730px;
   }
+
+  @media screen and (max-height: 738px) {
+    height: 110vh;
+  }
+
+  @media screen and (max-height: 638px) {
+    height: 120vh;
+  }
 `
 
 export const Content = styled.div `
