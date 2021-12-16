@@ -4,7 +4,7 @@ export const Container = styled.section `
   display: flex;
   align-items: center;
 
-  height: 13.438rem;
+  height: 14.938rem;
   width: 100%;
 
   background-color: var(--primary-color);
