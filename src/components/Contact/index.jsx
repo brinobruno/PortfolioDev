@@ -3,7 +3,7 @@ import { Container, Content, Title, Code } from './styles'
 
 export function Contact() {
   return (
-    <Container>
+    <Container id='contact'>
       <Content>
         <Title>Contact</Title>
         <Code>&#60;Form /&#62;</Code>

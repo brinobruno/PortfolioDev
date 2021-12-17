@@ -11,7 +11,7 @@ import sassIcon from '../../assets/skillsIcons/08-sass.svg'
 
 export function Skills() {
   return (
-    <Container>
+    <Container id='skills'>
       <Content>
         <div>
         <Title>Skills</Title>

@@ -20,16 +20,16 @@ export function Header() {
         <Nav>
           <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           <NavMenu menuClicked={menuClicked}>
-            <NavLink href="#">
+            <NavLink href="#about-me">
               About me
             </NavLink>
-            <NavLink href="#">
+            <NavLink href="#skills">
               Skills
             </NavLink>
-            <NavLink href="#">
+            <NavLink href="#projects">
               Projects
             </NavLink>
-            <NavLink href="#">
+            <NavLink href="#contact">
               Contact
             </NavLink>
           </NavMenu>

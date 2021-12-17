@@ -8,7 +8,7 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState(Images.imgItem00)
 
   return (
-    <Container>
+    <Container id='projects'>
       <Content>
         <Title>Projects</Title>
         <Code>SELECT &#60;project&#62; FROM &#60;projects_list&#62;</Code>

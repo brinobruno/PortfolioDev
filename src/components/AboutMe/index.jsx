@@ -2,7 +2,7 @@ import { Container, Content, Text, TextContent, Title, Code } from './styles'
 
 export function AboutMe() {
   return (
-    <Container>
+    <Container id='about-me'>
       <Content>
         <Title>About me</Title>
           <Text>
