@@ -99,4 +99,8 @@ export const ProgressContainer = styled.div `
 export const ProgressBar = styled.div ` 
   background-color: var(--primary-color);
   font-size: 0.3rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.17rem;
+  }
 `
