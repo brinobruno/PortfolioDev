@@ -86,3 +86,17 @@ export const NavLink = styled.a `
     font-size: 1.65rem;
   }
 `
+
+export const ProgressContainer = styled.div ` 
+    height: 0.2rem;
+    width: 100%;
+    background-color: #0E0E0E;
+
+    position: sticky;
+    z-index: 101;
+`
+
+export const ProgressBar = styled.div ` 
+  background-color: var(--primary-color);
+  font-size: 0.3rem;
+`
