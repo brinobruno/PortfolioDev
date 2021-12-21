@@ -126,10 +126,9 @@ export const ProjectsList = styled.div `
     @media screen and (max-width: 968px) {
       font-size: 1.4rem;
     }
-  }
 
-  .selected-item {
-    color: var(--primary-color);
-    font-weight: bold;
+    &.selected-item {
+      color: var(--primary-color);
+    }
   }
 `
