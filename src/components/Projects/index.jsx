@@ -2,10 +2,10 @@ import { useState } from 'react'
 
 import { Container, Content, Title, Code, ProjectsContainer, ProjectDisplay, ProjectsList } from './styles'
 
-import Images from './images';
+import ProjectsObject from './projectsObject';
 
 export function Projects() {
-  const [selectedProject, setSelectedProject] = useState(Images.imgItem00)
+  const [selectedProject, setSelectedProject] = useState(ProjectsObject.project00)
 
   return (
     <Container id='projects'>
@@ -22,12 +22,12 @@ export function Projects() {
           </ProjectDisplay>
 
           <ProjectsList>
-          <a className={selectedProject === Images.imgItem00 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem00) }}>Crossfit Gym Website_</a>
-          <a className={selectedProject === Images.imgItem01 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem01) }}>Candy Store Website_</a>
-          <a className={selectedProject === Images.imgItem02 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem02) }}>React Todo App_</a>
-          <a className={selectedProject === Images.imgItem03 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem03) }}>Snake Game_</a>
-          <a className={selectedProject === Images.imgItem04 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem04) }}>JSON Placeholder_</a>
-          <a className={selectedProject === Images.imgItem05 ? 'selected-item' : ''} onClick={() => { setSelectedProject(Images.imgItem05) }}>Personal Website_</a>
+          <a className={selectedProject === ProjectsObject.project00 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project00) }}>Crossfit Gym Website_</a>
+          <a className={selectedProject === ProjectsObject.project01 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project01) }}>Candy Store Website_</a>
+          <a className={selectedProject === ProjectsObject.project02 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project02) }}>React Todo App_</a>
+          <a className={selectedProject === ProjectsObject.project03 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project03) }}>Snake Game_</a>
+          <a className={selectedProject === ProjectsObject.project04 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project04) }}>JSON Placeholder_</a>
+          <a className={selectedProject === ProjectsObject.project05 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project05) }}>Personal Website_</a>
           </ProjectsList>
         </ProjectsContainer>
       </Content>
