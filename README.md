@@ -1,16 +1,24 @@
 # Portfolio Dev
 
-### (In progress...)
+![GitHub repo size](https://img.shields.io/github/repo-size/brinobruno/PortfolioDev?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/brinobruno/PortfolioDev/main?style=for-the-badge)
+---
+![GitHub language1](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub language2](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![GitHub language3](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub language4](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![GitHub language5](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 
-This will be my next portfolio, now using better technologies, methods and structure.
-Needless to say, I'll be focusing more on my experience as a Dev so far.
+![preview](https://user-images.githubusercontent.com/81701584/148596980-2188001f-e65a-499b-86c8-5ac411af1b16.png)
 
-As for the project itself, I'm commited to make it with React and afterwards, work on a NextJS version.
+Você pode acessar por [aqui] 👈 
 
-I made the UI design using Figma, not 100% complete as well and I hope to reach an optimal result. This is the link if you wish to see it:
-https://www.figma.com/file/dQw0X1ntskAc5nVTt3I6aw/Portfolio-V2-ReactJS-NextJS?node-id=0%3A1
+> Fiz o design no Figma para me auxiliar no desenvolvimento, se quiser dar uma olhada pode usar esse link: [figma]
 
-If you want to run the project (unfinished as of today):
+[aqui]: https://brunocorrea.vercel.app
+[figma]: https://www.figma.com/file/dQw0X1ntskAc5nVTt3I6aw/Portfolio-V2-ReactJS-NextJS?node-id=0%3A1
+
+If you want to run the project:
 
 - Clone repository
 
