@@ -15,7 +15,7 @@ export function Skills() {
       <Content>
         <div>
         <Title>Skills</Title>
-        <Code>&#60;ul id=”theMostRelevant”&#62;&#60;/ul&#62;</Code>
+        <Code>&#60;ul id=”mainSkillset”&#62;&#60;/ul&#62;</Code>
         </div>
           <SkillsGrid>
             <SkillsItem>
