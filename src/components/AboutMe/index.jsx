@@ -13,7 +13,7 @@ export function AboutMe() {
             <br /><br />
             I’m a software engineer based in São Paulo - Brazil,  I’m currently an undergraduate in Computer Engineering and since 2020 I’ve worked with technologies such as JavaScript, React JS, Node JS, SCSS, Git and C++.
             <br /><br />
-            At the moment I’m also an intern at an EdTech called Kukka Educação,  needless to say I’m extremely passionate about education and its impact globally.
+            At the moment I’m a Junior Developer at Binary Future, from Ukraine,  needless to say I’m extremely passionate about education and its impact globally.
             </TextContent>
           </Text>
       </Content>
