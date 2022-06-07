@@ -33,8 +33,8 @@ const ProjectsObject = {
   },
   project05: {
     image: img05,
-    projectUrl: 'https://meuport.com/',
-    repositoryUrl: 'https://github.com/brinobruno/portfolio-MeuPort'
+    projectUrl: 'https://natelha.blog/',
+    repositoryUrl: 'https://github.com/brinobruno/na-telha'
   },
 }
 

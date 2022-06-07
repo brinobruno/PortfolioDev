@@ -27,7 +27,7 @@ export function Projects() {
           <a className={selectedProject === ProjectsObject.project02 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project02) }}>React Todo App_</a>
           <a className={selectedProject === ProjectsObject.project03 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project03) }}>Snake Game_</a>
           <a className={selectedProject === ProjectsObject.project04 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project04) }}>JSON Placeholder_</a>
-          <a className={selectedProject === ProjectsObject.project05 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project05) }}>Personal Website_</a>
+          <a className={selectedProject === ProjectsObject.project05 ? 'selected-item' : ''} onClick={() => { setSelectedProject(ProjectsObject.project05) }}>Personal Blog_</a>
           </ProjectsList>
         </ProjectsContainer>
       </Content>
