@@ -27,34 +27,48 @@ export function Home() {
     <>
     <Container>
       <Content>
-        <Text>
-          <Title>Ciao!<br />I'm Bruno</Title>
-          <Subtitle>A future fullstack developer</Subtitle>
-          <DownloadHome onClick={handleOpenDownloadCVModal} id="download-home" >Resumé <img src={downloadIcon} alt="Ícone de download" /></DownloadHome>
-          <Modal
-          isOpen={isDownloadCVModalOpen}
-          onRequestClose={handleCloseDownloadCVModal}
+          <div className="buttons-div">
+            <div>
+              <Text>
+                <Title>Ciao!<br />I'm Bruno</Title>
+                <Subtitle>A future fullstack developer</Subtitle>
+                <DownloadHome onClick={handleOpenDownloadCVModal} id="download-home" >Resumé <img src={downloadIcon} alt="Ícone de download" /></DownloadHome>
+                <Modal
+                isOpen={isDownloadCVModalOpen}
+                onRequestClose={handleCloseDownloadCVModal}
 
-          //style
-          overlayClassName='react-modal-overlay'
-          className='react-modal-content'
-          >
-          <button
-            type="button"
-            onClick={handleCloseDownloadCVModal}
-            className='react-modal-close-button'
-          >
-            <img src={closeIcon} alt="Close menu" />
-          </button>
-            <ModalContainer>
-              <h3>Download my Resumé</h3>
-              <div>
-              <button><a target='_blank' href={englishCV}>In English</a> <img src={downloadIcon} alt="Download" /> </button>
-              <button><a target='_blank' href={portugueseCV}>Em português</a> <img src={downloadIcon} alt="Download" /> </button>
-              </div>
-            </ModalContainer>
-          </Modal>
-        </Text>
+                //style
+                overlayClassName='react-modal-overlay'
+                className='react-modal-content'
+                >
+                <button
+                  type="button"
+                  onClick={handleCloseDownloadCVModal}
+                  className='react-modal-close-button'
+                >
+                  <img src={closeIcon} alt="Close menu" />
+                </button>
+                  <ModalContainer>
+                    <h3>Download my Resumé</h3>
+                    <div>
+                    <button><a target='_blank' href={englishCV}>In English</a> <img src={downloadIcon} alt="Download" /> </button>
+                    <button><a target='_blank' href={portugueseCV}>Em português</a> <img src={downloadIcon} alt="Download" /> </button>
+                    </div>
+                  </ModalContainer>
+                </Modal>
+              </Text>
+            </div>
+            <div>
+              <a href='https://natelha.blog' target='_blank'>
+                <DownloadHome id='visit-blog'>
+                  Visit my blog
+                </DownloadHome>
+              </a>
+            </div>
+  
+
+          </div>
+
         <img id="bruno-img" src={brunoImg} alt="Bruno Corrêa's picture" />
       </Content>
     </Container>

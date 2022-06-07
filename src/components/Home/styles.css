@@ -1,10 +1,10 @@
-#download-home {
+#download-home, #visit-blog {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 1) , #0E8B5E);
   border: 2px solid #0E8B5E;
   filter: brightness(0.92);
 }
 
-#download-home:hover {
+#download-home:hover, #visit-blog:hover {
   filter: brightness(1);
   transition: filter 0.3s ease-in;
   background-image: linear-gradient(to right, #0E8B5E , #0E8B5E);
@@ -13,3 +13,9 @@
 #download-home img {
   padding-left: 0.25rem;
 } 
+
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
