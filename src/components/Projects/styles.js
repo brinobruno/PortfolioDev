@@ -114,9 +114,12 @@ export const ProjectsList = styled.div `
   flex-direction: column;
   gap: 1.17rem;
 
-  a {
+  button {
     font-size: 1.775rem;
     color: #696969;
+    background: none;
+    border: none;
+    text-align: left;
 
     &:hover:not(.selected-item) {
       transition: 0.1s ease;
