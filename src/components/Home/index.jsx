@@ -69,7 +69,7 @@ export function Home() {
 
           </div>
 
-        <img id="bruno-img" src={brunoImg} alt="Bruno Corrêa's picture" />
+        <img id="bruno-img" src={brunoImg} alt="Bruno Corrêa" />
       </Content>
     </Container>
     </>
