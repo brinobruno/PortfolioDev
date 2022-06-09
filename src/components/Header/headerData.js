@@ -19,5 +19,24 @@ export const socialIconsData = [
   {
     component: <BlogIcon className='socialIcon' />,
     url: 'https://natelha.blog'
+  }
+]
+
+export const sectionMenuLinks = [
+  {
+    name: 'About me',
+    href: '#about-me'
+  },
+  {
+    name: 'Skills',
+    href: '#skills'
+  },
+  {
+    name: 'Projects',
+    href: '#projects'
+  },
+  {
+    name: 'Contact',
+    href: '#contact'
   },
 ]

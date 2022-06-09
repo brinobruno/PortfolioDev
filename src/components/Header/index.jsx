@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import './iconStyles.css'
 import { Container, Content, Nav, NavMenu, NavIcons, NavLink, ProgressContainer, ProgressBar } from './styles'
-import { socialIconsData } from './headerData'
+import { sectionMenuLinks, socialIconsData } from './headerData'
 
 export function Header() {
   let [menuClicked, setMenuClicked] = useState(false)
@@ -39,18 +39,15 @@ export function Header() {
         <Nav>
           <i id="menu-icon-switch" onClick={ handleMenuOpen } className={ menuClicked ? 'fas fa-times' : 'fas fa-bars' }></i>
           <NavMenu menuClicked={ menuClicked }>
-            <NavLink href="#about-me">
-              About me
-            </NavLink>
-            <NavLink href="#skills">
-              Skills
-            </NavLink>
-            <NavLink href="#projects">
-              Projects
-            </NavLink>
-            <NavLink href="#contact">
-              Contact
-            </NavLink>
+            {
+              sectionMenuLinks.map((link) => {
+                return (
+                  <NavLink href={ link.href } key={ link.name }>
+                    { link.name }
+                  </NavLink>
+                )
+              })
+            }
           </NavMenu>
         </Nav>
           <NavIcons menuClicked={ menuClicked }>
