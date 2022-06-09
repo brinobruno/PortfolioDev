@@ -52,10 +52,10 @@ export function Header() {
         </Nav>
           <NavIcons menuClicked={ menuClicked }>
             {
-              socialIconsData.map((item, index) => {
+              socialIconsData.map((icon, index) => {
                 return (
-                  <NavLink target='_blank' href={ item.url } key={ index }>
-                  {  item.component } 
+                  <NavLink target='_blank' href={ icon.url } key={ index }>
+                  {  icon.component } 
                   </NavLink>
                 )
               })
