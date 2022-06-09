@@ -65,10 +65,7 @@ export function Home() {
                 </DownloadHome>
               </a>
             </div>
-  
-
           </div>
-
         <img id="bruno-img" src={brunoImg} alt="Bruno Corrêa" />
       </Content>
     </Container>
