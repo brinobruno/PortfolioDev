@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { ReactComponent as GithubIcon } from '../../assets/userIcons/github.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/userIcons/linkedin.svg'
 import { ReactComponent as EmailIcon } from '../../assets/userIcons/email.svg'
+import { ReactComponent as BlogIcon } from '../../assets/userIcons/blog.svg'
 
 import './iconStyles.css'
 import { Container, Content, Nav, NavMenu, NavIcons, NavLink, ProgressContainer, ProgressBar } from './styles'
@@ -58,13 +59,16 @@ export function Header() {
         </Nav>
           <NavIcons menuClicked={menuClicked}>
             <NavLink target="_blank" href="https://github.com/brinobruno">
-            <GithubIcon className="githubIcon" />
+            <GithubIcon className="socialIcon" />
             </NavLink>
             <NavLink target="_blank" href="https://www.linkedin.com/in/brunociao/">
-              <LinkedinIcon className="linkedinIcon" />
+              <LinkedinIcon className="socialIcon" />
             </NavLink>
             <NavLink target="_blank" href="mailto:brunosantos6ft@gmail.com">
-             <EmailIcon className="emailIcon" />
+             <EmailIcon className="socialIcon" />
+            </NavLink>
+            <NavLink target="_blank" href="https://natelha.blog">
+              <BlogIcon className="socialIcon" />
             </NavLink>
           </NavIcons>
       </Content>
