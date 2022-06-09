@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { ReactComponent as GithubIcon } from '../../assets/userIcons/github.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/userIcons/linkedin.svg'
@@ -41,8 +41,8 @@ export function Header() {
       </ProgressContainer>
       <Content>
         <Nav>
-          <i id="menu-icon-switch" onClick={handleMenuOpen} className={menuClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-          <NavMenu menuClicked={menuClicked}>
+          <i id="menu-icon-switch" onClick={ handleMenuOpen } className={ menuClicked ? 'fas fa-times' : 'fas fa-bars' }></i>
+          <NavMenu menuClicked={ menuClicked }>
             <NavLink href="#about-me">
               About me
             </NavLink>
@@ -57,7 +57,7 @@ export function Header() {
             </NavLink>
           </NavMenu>
         </Nav>
-          <NavIcons menuClicked={menuClicked}>
+          <NavIcons menuClicked={ menuClicked }>
             <NavLink target="_blank" href="https://github.com/brinobruno">
             <GithubIcon className="socialIcon" />
             </NavLink>
