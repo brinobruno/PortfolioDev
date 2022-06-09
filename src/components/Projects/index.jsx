@@ -31,13 +31,13 @@ export function Projects() {
             {
               ProjectsObject.map((item, index) => {
                 return (
-                  <a
+                  <button
                     key={ item.name }
                     className={ selectedProject === ProjectsObject[index] ? 'selected-item' : '' }
                     onClick={() => { setSelectedProject(ProjectsObject[index]) }}
                   >
                     { item.name }
-                  </a>
+                  </button>
                 )
               })
             }
