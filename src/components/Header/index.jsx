@@ -54,7 +54,7 @@ export function Header() {
             {
               socialIconsData.map((icon, index) => {
                 return (
-                  <NavLink target='_blank' href={ icon.url } key={ index }>
+                  <NavLink rel="noreferrer" target='_blank' href={ icon.url } key={ index }>
                   {  icon.component } 
                   </NavLink>
                 )

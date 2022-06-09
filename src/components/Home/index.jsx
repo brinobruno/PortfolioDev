@@ -51,15 +51,15 @@ export function Home() {
                   <ModalContainer>
                     <h3>Download my Resumé</h3>
                     <div>
-                    <button><a target='_blank' href={englishCV}>In English</a> <img src={downloadIcon} alt="Download" /> </button>
-                    <button><a target='_blank' href={portugueseCV}>Em português</a> <img src={downloadIcon} alt="Download" /> </button>
+                    <button><a rel="noreferrer" target='_blank' href={englishCV}>In English</a> <img src={downloadIcon} alt="Download" /> </button>
+                    <button><a rel="noreferrer" target='_blank' href={portugueseCV}>Em português</a> <img src={downloadIcon} alt="Download" /> </button>
                     </div>
                   </ModalContainer>
                 </Modal>
               </Text>
             </div>
             <div>
-              <a href='https://natelha.blog' target='_blank'>
+              <a href='https://natelha.blog' target='_blank' rel="noreferrer">
                 <DownloadHome id='visit-blog'>
                   Visit my blog
                 </DownloadHome>
