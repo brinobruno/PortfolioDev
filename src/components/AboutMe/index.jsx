@@ -11,7 +11,7 @@ export function AboutMe() {
             <br />
             You know that guy who’s always on a computer, either gaming, watching stuff or typing <span id="colorful-purple">colorful</span> <span id="colorful-green">words</span> on a text editor? Yup, that’s me!
             <br /><br />
-            I’m a software engineer based in São Paulo - Brazil,  I’m currently an undergraduate in Computer Engineering and since 2020 I’ve worked with technologies such as JavaScript, React JS, Node JS, SCSS, Git and C++.
+            I’m a software engineer based in São Paulo - Brazil,  I’m currently an undergraduate in Computer Engineering and since 2020 I’ve worked with technologies such as JavaScript, ReactJS, NodeJS, SCSS, Git and C++.
             <br /><br />
             At the moment I’m a Junior Developer at Binary Future, from Ukraine,  needless to say I’m extremely passionate about education and its impact globally.
             </TextContent>
