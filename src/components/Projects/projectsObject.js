@@ -7,10 +7,10 @@ import img05 from '../../assets/projectsImg/05-project.png'
 
 export const ProjectsObject = [
   {
-    name: 'Crossfit Gym Website_',
-    image: img00,
-    projectUrl: 'https://crossfitatos.com.br/primeiropasso',
-    repositoryUrl: 'https://github.com/brinobruno/atosbox-landingpage-01'
+    name: 'Personal Blog_',
+    image: img05,
+    projectUrl: 'https://natelha.blog/',
+    repositoryUrl: 'https://github.com/brinobruno/na-telha'
   },
   {
     name: 'Candy Store Website_',
@@ -37,9 +37,9 @@ export const ProjectsObject = [
     repositoryUrl: 'https://github.com/brinobruno/JSONPlaceholder'
   },
   {
-    name: 'Personal Blog_',
-    image: img05,
-    projectUrl: 'https://natelha.blog/',
-    repositoryUrl: 'https://github.com/brinobruno/na-telha'
+    name: 'Crossfit Gym Website_',
+    image: img00,
+    projectUrl: 'https://crossfitatos.com.br/primeiropasso',
+    repositoryUrl: 'https://github.com/brinobruno/atosbox-landingpage-01'
   },
 ]
