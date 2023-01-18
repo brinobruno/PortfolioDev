@@ -10,7 +10,7 @@ import { GlobalStyle } from './global/global'
 
 export function App() {
   return (
-    <>
+    <div translate='no'>
       <Header />
       <Home />
       <AboutMe />
@@ -19,6 +19,6 @@ export function App() {
       <Contact />
       <Footer />
       <GlobalStyle />
-    </>
+    </div>
   );
 }
