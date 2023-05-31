@@ -25,7 +25,7 @@ export function Home() {
 
   return (
     <>
-    <Container>
+    <Container id="home">
       <Content>
           <div className="buttons-div">
             <div>

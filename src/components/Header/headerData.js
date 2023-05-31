@@ -28,6 +28,10 @@ export const socialIconsData = [
 
 export const sectionMenuLinks = [
   {
+    name: 'Home',
+    href: '#home',
+  },
+  {
     name: 'About me',
     href: '#about-me',
   },
