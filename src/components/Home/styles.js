@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import './styles.css'
 
-export const Container = styled.section `
+export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ export const Container = styled.section `
   }
 `
 
-export const Content = styled.div `
+export const Content = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -49,9 +49,9 @@ export const Content = styled.div `
   }
 `
 
-export const Text = styled.div ``
+export const Text = styled.div``
 
-export const Title = styled.h1 `
+export const Title = styled.h1`
   font-size: var(--opening-font);
   color: var(--body-text-color);
   line-height: 5rem;
@@ -65,7 +65,7 @@ export const Title = styled.h1 `
   }
 `
 
-export const Subtitle = styled.h4 `
+export const Subtitle = styled.h4`
   font-size: var(--opening-subtitle);
   color: var(--primary-color);
   font-weight: 400;
@@ -77,7 +77,7 @@ export const Subtitle = styled.h4 `
   }
 `
 
-export const DownloadHome = styled.button `
+export const DownloadHome = styled.button`
   font-size: 1.315rem;
   font-weight: 700;
   width: 11.5rem;
@@ -85,7 +85,7 @@ export const DownloadHome = styled.button `
   border-radius: 6px;
 `
 
-export const ModalContainer = styled.div `
+export const ModalContainer = styled.div`
   h3 {
     color: var(--body-text-color-alt);
     font-size: var(--opening-subtitle);

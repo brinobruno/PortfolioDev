@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-export const Container = styled.header `
-  background: #0E0E0E;
+export const Container = styled.header`
+  background: #0e0e0e;
   overflow: hidden;
   width: 100%;
   position: fixed;
   z-index: 100;
 `
 
-export const Content = styled.div `
+export const Content = styled.div`
   max-width: 900px;
   margin: 0 auto;
   display: flex;
@@ -26,7 +26,7 @@ export const Content = styled.div `
   }
 `
 
-export const Nav = styled.nav `
+export const Nav = styled.nav`
   display: flex;
   align-items: center;
 
@@ -36,7 +36,7 @@ export const Nav = styled.nav `
   }
 `
 
-export const NavMenu = styled.div `
+export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: column;
@@ -48,13 +48,13 @@ export const NavMenu = styled.div `
     flex-direction: column;
     padding-top: 2rem;
 
-    display: ${({menuClicked}) => (menuClicked ? 'flex' : 'none')};
+    display: ${({ menuClicked }) => (menuClicked ? 'flex' : 'none')};
 
     transition: height 0.5s;
   }
 `
 
-export const NavIcons = styled.nav `
+export const NavIcons = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,11 +67,11 @@ export const NavIcons = styled.nav `
     flex-direction: row;
     padding-top: 2.25rem;
 
-    display: ${({menuClicked}) => (menuClicked ? 'flex' : 'none')};
+    display: ${({ menuClicked }) => (menuClicked ? 'flex' : 'none')};
   }
 `
 
-export const NavLink = styled.a `
+export const NavLink = styled.a`
   align-items: center;
 
   font-weight: 700;
@@ -87,16 +87,16 @@ export const NavLink = styled.a `
   }
 `
 
-export const ProgressContainer = styled.div ` 
-    height: 0.2rem;
-    width: 100%;
-    background-color: #0E0E0E;
+export const ProgressContainer = styled.div`
+  height: 0.2rem;
+  width: 100%;
+  background-color: #0e0e0e;
 
-    position: sticky;
-    z-index: 101;
+  position: sticky;
+  z-index: 101;
 `
 
-export const ProgressBar = styled.div ` 
+export const ProgressBar = styled.div`
   background-color: var(--primary-color);
   font-size: 0.3rem;
 

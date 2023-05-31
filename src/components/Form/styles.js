@@ -1,12 +1,12 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-export const ContactForm = styled.form `
+export const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   height: 31.25rem;
   width: 24.25rem;
   border-radius: 0.375rem;
@@ -57,7 +57,7 @@ export const ContactForm = styled.form `
   }
 `
 
-export const FormInputs = styled.div `
+export const FormInputs = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -71,29 +71,33 @@ export const FormInputs = styled.div `
     }
   }
 
-  input, textarea, select {
-      background-color: var(--body-text-color-alt);
-      border: none;
-      border-radius: 0.375rem;
-      width: 19.938rem;
-      height: 2.375rem;
-      font-size: 0.875rem;
-      padding: 0.5rem;
+  input,
+  textarea,
+  select {
+    background-color: var(--body-text-color-alt);
+    border: none;
+    border-radius: 0.375rem;
+    width: 19.938rem;
+    height: 2.375rem;
+    font-size: 0.875rem;
+    padding: 0.5rem;
 
-      &::placeholder {
-        color: #858585;
-      }
+    &::placeholder {
+      color: #858585;
+    }
 
-      &:not(:placeholder-shown), &:focus {
-        color: var(--primary-color);
-      }
+    &:not(:placeholder-shown),
+    &:focus {
+      color: var(--primary-color);
+    }
 
-      @media screen and (max-width: 338px) {
-        width: 15.938rem;
-      }
+    @media screen and (max-width: 338px) {
+      width: 15.938rem;
+    }
   }
 
-  option, select {
+  option,
+  select {
     color: var(--body-text-color);
 
     &:not(:first-of-type) {

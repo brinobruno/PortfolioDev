@@ -13,55 +13,55 @@ export const skillsData = [
     description: 'Programming language',
     icon: javascriptIcon,
     typeTag0: 'Frontend',
-    typeTag1: 'Backend'
+    typeTag1: 'Backend',
   },
   {
     name: 'Git',
     description: 'Version control system',
     icon: gitIcon,
     typeTag0: 'Versioning',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'React',
     description: 'JavaScript UI library',
     icon: reactIcon,
     typeTag0: 'Frontend',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'SQL',
     description: 'Structured Query Language',
     icon: sqlIcon,
     typeTag0: 'Database',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'NodeJS',
     description: 'JavaScript runtime',
     icon: nodeIcon,
     typeTag0: 'Backend',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'HTML5',
     description: 'Hypertext Markup Language',
     icon: htmlIcon,
     typeTag0: 'Frontend',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'ExpressJS',
     description: 'NodeJS framework',
     icon: expressIcon,
     typeTag0: 'Backend',
-    typeTag1: ''
+    typeTag1: '',
   },
   {
     name: 'Sass',
     description: 'CSS preprocessor',
     icon: sassIcon,
     typeTag0: 'Frontend',
-    typeTag1: ''
+    typeTag1: '',
   },
 ]

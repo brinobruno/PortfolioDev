@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section `
+export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ export const Container = styled.section `
   }
 `
 
-export const Content = styled.div `
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -35,17 +35,17 @@ export const Content = styled.div `
   }
 `
 
-export const Title = styled.h2 `
+export const Title = styled.h2`
   font-size: var(--heading-title);
   color: var(--primary-color);
   text-align: center;
-  `
+`
 
-export const Code = styled.span `
+export const Code = styled.span`
   text-align: center;
-  `
+`
 
-export const SkillsGrid = styled.div `
+export const SkillsGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1.25rem;
@@ -58,14 +58,14 @@ export const SkillsGrid = styled.div `
   }
 `
 
-export const SkillsItem = styled.div `
+export const SkillsItem = styled.div`
   display: flex;
   align-items: center;
 
   width: 27.625rem;
   height: 5.875rem;
-  
-  background-color: #1A1A1A;
+
+  background-color: #1a1a1a;
   padding: 1.5rem;
   cursor: pointer;
 
@@ -81,14 +81,14 @@ export const SkillsItem = styled.div `
     transition: 0.3s ease;
     background-color: #343434;
 
-      .typeTag {
-        transition: 0.3s ease;
-        background-color: #202020;
-      }
+    .typeTag {
+      transition: 0.3s ease;
+      background-color: #202020;
+    }
   }
 
   img {
-    padding-right: 0.875rem; 
+    padding-right: 0.875rem;
   }
 
   @media screen and (max-width: 415px) {

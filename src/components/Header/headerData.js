@@ -5,38 +5,38 @@ import { ReactComponent as BlogIcon } from '../../assets/userIcons/blog.svg'
 
 export const socialIconsData = [
   {
-    component: <GithubIcon className='socialIcon' />,
-    url: 'https://github.com/brinobruno'
+    component: <GithubIcon className="socialIcon" />,
+    url: 'https://github.com/brinobruno',
   },
   {
-    component: <LinkedinIcon className='socialIcon' />,
-    url: 'https://www.linkedin.com/in/brunociao/'
+    component: <LinkedinIcon className="socialIcon" />,
+    url: 'https://www.linkedin.com/in/brunociao/',
   },
   {
-    component: <EmailIcon className='socialIcon' />,
-    url: 'mailto:brunosantos6ft@gmail.com'
+    component: <EmailIcon className="socialIcon" />,
+    url: 'mailto:brunosantos6ft@gmail.com',
   },
   {
-    component: <BlogIcon className='socialIcon' />,
-    url: 'https://natelha.blog'
-  }
+    component: <BlogIcon className="socialIcon" />,
+    url: 'https://natelha.blog',
+  },
 ]
 
 export const sectionMenuLinks = [
   {
     name: 'About me',
-    href: '#about-me'
+    href: '#about-me',
   },
   {
     name: 'Skills',
-    href: '#skills'
+    href: '#skills',
   },
   {
     name: 'Projects',
-    href: '#projects'
+    href: '#projects',
   },
   {
     name: 'Contact',
-    href: '#contact'
+    href: '#contact',
   },
 ]

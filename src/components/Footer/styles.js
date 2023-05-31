@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section `
+export const Container = styled.section`
   display: flex;
   align-items: center;
 
@@ -10,7 +10,7 @@ export const Container = styled.section `
   background-color: var(--primary-color);
 `
 
-export const Content = styled.div `
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -21,7 +21,7 @@ export const Content = styled.div `
   }
 `
 
-export const Text = styled.div `
+export const Text = styled.div`
   .last-text {
     color: var(--body-text-color-alt);
     text-align: center;
@@ -29,12 +29,12 @@ export const Text = styled.div `
     font-size: var(--body-text-font);
 
     @media screen and (max-width: 468px) {
-    font-size: 0.95rem;
-  }
+      font-size: 0.95rem;
+    }
   }
 `
 
-export const FooterText = styled.p `
+export const FooterText = styled.p`
   color: var(--body-text-color-alt);
   font-size: var(--body-text-font);
 
@@ -43,12 +43,12 @@ export const FooterText = styled.p `
   }
 `
 
-export const FooterDivider = styled.div `
+export const FooterDivider = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 `
 
-export const Code = styled.span `
-  color: #7C7C7C;
+export const Code = styled.span`
+  color: #7c7c7c;
 `

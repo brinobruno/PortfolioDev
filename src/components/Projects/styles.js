@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section `
+export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ export const Container = styled.section `
   }
 `
 
-export const Content = styled.div `
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -38,14 +38,14 @@ export const Content = styled.div `
   }
 `
 
-export const Title = styled.h2 `
+export const Title = styled.h2`
   font-size: var(--heading-title);
   color: var(--primary-color);
 `
 
-export const Code = styled.span ``
+export const Code = styled.span``
 
-export const ProjectsContainer = styled.div `
+export const ProjectsContainer = styled.div`
   display: flex;
   padding-top: 2.813rem;
 
@@ -56,7 +56,7 @@ export const ProjectsContainer = styled.div `
   }
 `
 
-export const ProjectDisplay = styled.div `
+export const ProjectDisplay = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -70,7 +70,7 @@ export const ProjectDisplay = styled.div `
   }
 
   button {
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     border: none;
     padding: 0.438rem 1.18rem;
     font-size: var(--body-text-font);
@@ -90,7 +90,7 @@ export const ProjectDisplay = styled.div `
       font-size: 1rem;
     }
   }
-  
+
   img {
     margin: 0 2.213rem 1.5rem 0;
     cursor: pointer;
@@ -109,7 +109,7 @@ export const ProjectDisplay = styled.div `
   }
 `
 
-export const ProjectsList = styled.div `
+export const ProjectsList = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.17rem;
@@ -123,7 +123,7 @@ export const ProjectsList = styled.div `
 
     &:hover:not(.selected-item) {
       transition: 0.1s ease;
-      color: #AEAEAE;
+      color: #aeaeae;
     }
 
     @media screen and (max-width: 968px) {
