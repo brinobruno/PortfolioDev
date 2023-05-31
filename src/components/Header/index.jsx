@@ -52,10 +52,15 @@ export function Header() {
         </Nav>
           <NavIcons menuClicked={ menuClicked }>
             {
-              socialIconsData.map((icon, index) => {
+              socialIconsData.map((icon) => {
                 return (
-                  <NavLink rel="noreferrer" target='_blank' href={ icon.url } key={ index }>
-                  {  icon.component } 
+                  <NavLink
+                    rel="noreferrer"
+                    target='_blank'
+                    href={ icon.url }
+                    key={ icon.id }
+                  >
+                    { icon.component } 
                   </NavLink>
                 )
               })
