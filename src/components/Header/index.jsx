@@ -5,7 +5,7 @@ import { Container, Content, Nav, NavMenu, NavIcons, NavLink, ProgressContainer,
 import { sectionMenuLinks, socialIconsData } from './headerData'
 
 export function Header() {
-  let [menuClicked, setMenuClicked] = useState(false)
+  const [menuClicked, setMenuClicked] = useState(false)
 
   function handleMenuOpen () {
     setMenuClicked(!menuClicked)

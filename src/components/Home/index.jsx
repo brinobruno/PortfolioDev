@@ -10,7 +10,7 @@ import brunoImg from '../../assets/images/brunoImg.png'
 import downloadIcon from '../../assets/userIcons/download.svg'
 import closeIcon from '../../assets/userIcons/close.svg'
 
-Modal.setAppElement('#root') //accessibility code recommended by documentation
+Modal.setAppElement('#root') // accessibility code recommended by documentation
 
 export function Home() {
   const [isDownloadCVModalOpen, setIsDownloadCVModalOpen] = useState(false)
@@ -30,14 +30,14 @@ export function Home() {
           <div className="buttons-div">
             <div>
               <Text>
-                <Title>Ciao!<br />I'm Bruno</Title>
+                <Title>Ciao!<br />I&apos;m Bruno</Title>
                 <Subtitle>A future fullstack developer</Subtitle>
                 <DownloadHome onClick={handleOpenDownloadCVModal} id="download-home" >Resumé <img src={downloadIcon} alt="Ícone de download" /></DownloadHome>
                 <Modal
                 isOpen={isDownloadCVModalOpen}
                 onRequestClose={handleCloseDownloadCVModal}
 
-                //style
+                // style
                 overlayClassName='react-modal-overlay'
                 className='react-modal-content'
                 >

@@ -12,7 +12,7 @@ export function Form() {
 
       .catch(err => console.log(err))
 
-      e.target.reset() //form reset
+      e.target.reset() // form reset
   }
 
   return (
