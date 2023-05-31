@@ -23,6 +23,9 @@
     "lint": "eslint src --ext .js,.tsx,.ts,.tsx",
     "lint-fix": "eslint src --ext .js,.tsx,.ts,.tsx --fix"
   },
+  "engines" : { 
+    "node" : ">=18.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
