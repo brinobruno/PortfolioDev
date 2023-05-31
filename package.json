@@ -41,5 +41,9 @@
   },
   "main": "index.js",
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@brinobruno/eslint-config": "^2.0.4",
+    "eslint": "^8.41.0"
+  }
 }
