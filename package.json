@@ -1,10 +1,17 @@
 {
   "name": "portfolio-dev",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
+  "type": "module",
   "main": "index.js",
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
+  "description": "A professional developer portfolio by Bruno Corrêa",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "portfolio"
+  ],
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
