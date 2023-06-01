@@ -25,10 +25,18 @@ export function Projects() {
               alt="Screenshot of the project selected"
             />
             <div>
-              <a href={selectedProject.projectUrl}>
+              <a
+                href={selectedProject.projectUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button>View Project</button>
               </a>
-              <a href={selectedProject.repositoryUrl}>
+              <a
+                href={selectedProject.repositoryUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button>View Repository</button>
               </a>
             </div>
