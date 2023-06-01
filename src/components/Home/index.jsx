@@ -59,7 +59,7 @@ export function Home() {
               </Text>
             </div>
             <div>
-              <a href='https://natelha.blog' target='_blank' rel="noreferrer">
+              <a href='https://natelha.vercel.app' target='_blank' rel="noreferrer">
                 <DownloadHome id='visit-blog'>
                   Visit my blog
                 </DownloadHome>
