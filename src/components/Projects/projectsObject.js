@@ -9,7 +9,7 @@ export const ProjectsObject = [
   {
     name: 'Personal Blog_',
     image: img05,
-    projectUrl: 'https://natelha.blog/',
+    projectUrl: 'https://natelha.vercel.app/',
     repositoryUrl: 'https://github.com/brinobruno/na-telha',
   },
   {
