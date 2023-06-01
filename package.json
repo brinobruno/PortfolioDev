@@ -2,7 +2,6 @@
   "name": "portfolio-dev",
   "private": true,
   "version": "0.1.0",
-  "type": "module",
   "main": "index.js",
   "author": "Bruno Corrêa <brunosantos6ft@gmail.com>",
   "description": "A professional developer portfolio by Bruno Corrêa",
