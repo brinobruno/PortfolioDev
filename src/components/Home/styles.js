@@ -29,23 +29,24 @@ export const Content = styled.div`
     }
 
     @media screen and (max-width: 590px) {
-    #bruno-img {
-      width: 22rem;
-    }
-
-    @media screen and (max-width: 437px) {
       #bruno-img {
-        width: 19rem;
+        width: 22rem;
+      }
+
+      @media screen and (max-width: 437px) {
+        #bruno-img {
+          width: 19rem;
+        }
       }
     }
-  }
 
-  @media screen and (max-width: 768px) {
-    justify-content: space-around;
-  }
+    @media screen and (max-width: 768px) {
+      justify-content: space-around;
+    }
 
-  @media screen and (max-width: 590px) {
-    flex-direction: column-reverse;
+    @media screen and (max-width: 590px) {
+      flex-direction: column-reverse;
+    }
   }
 `
 

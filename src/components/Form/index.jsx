@@ -7,34 +7,51 @@ export function Form() {
   function sendEmail(e) {
     e.preventDefault()
 
-    emailjs.sendForm('service_aq8r1tz', 'template_efnmnug', e.target, 'user_bQxTD8Swl6pq4HDXxaDVd')
-      .then(result => console.log(result.text))
+    emailjs
+      .sendForm(
+        'service_aq8r1tz',
+        'template_efnmnug',
+        e.target,
+        'user_bQxTD8Swl6pq4HDXxaDVd',
+      )
+      .then((result) => console.log(result.text))
 
-      .catch(err => console.log(err))
+      .catch((err) => console.log(err))
 
-      e.target.reset() // form reset
+    e.target.reset() // form reset
   }
 
   return (
-    <ContactForm onSubmit={ sendEmail }> 
+    <ContactForm onSubmit={sendEmail}>
       <FormInputs>
-        <label htmlFor='name' className='form-label'>
+        <label htmlFor="name" className="form-label">
           Your name*
         </label>
-          <input className='form-input' id='name' type='text' name='name'
-          placeholder='Tell me your name' required/>
+        <input
+          className="form-input"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Tell me your name"
+          required
+        />
       </FormInputs>
 
       <FormInputs>
-        <label htmlFor='email' className='form-label'>
+        <label htmlFor="email" className="form-label">
           E-mail address*
         </label>
-          <input id='email' type='email' name='email'
-          placeholder='Tell me your e-mail' required />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Tell me your e-mail"
+          required
+        />
       </FormInputs>
 
       <FormInputs>
-        <label htmlFor='subject' className='form-label'>
+        <label htmlFor="subject" className="form-label">
           Subject
         </label>
         <select id="subject" name="subject">
@@ -47,11 +64,16 @@ export function Form() {
       </FormInputs>
 
       <FormInputs>
-        <label htmlFor='message' className='form-label'>
+        <label htmlFor="message" className="form-label">
           Message*
         </label>
-          <textarea id='message' type='message' name='message'
-          placeholder='Hi! I’d like to talk to you about {something},' required></textarea>
+        <textarea
+          id="message"
+          type="message"
+          name="message"
+          placeholder="Hi! I’d like to talk to you about {something},"
+          required
+        ></textarea>
       </FormInputs>
       <button type="submit">Send to Bruno</button>
     </ContactForm>

@@ -3,11 +3,11 @@ import { Container, Content, Title, Code } from './styles'
 
 export function Contact() {
   return (
-    <Container id='contact'>
+    <Container id="contact">
       <Content>
         <Title>Contact</Title>
         <Code>&#60;Form /&#62;</Code>
-          <Form />
+        <Form />
       </Content>
     </Container>
   )
