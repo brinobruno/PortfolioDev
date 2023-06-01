@@ -1,6 +1,3 @@
 {
-  "extends": "@brinobruno/eslint-config/react",
-  "rules": {
-    "prettier/prettier": 0
-  }
+  "extends": "@brinobruno/eslint-config/react"
 }
