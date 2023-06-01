@@ -22,7 +22,7 @@ export const socialIconsData = [
   {
     id: 4,
     component: <BlogIcon className="socialIcon" />,
-    url: 'https://natelha.blog',
+    url: 'https://natelha.vercel.app',
   },
 ]
 
