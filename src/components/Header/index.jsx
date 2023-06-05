@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import './iconStyles.css'
+import { sectionMenuLinks, socialIconsData } from './headerData'
 import {
   Container,
   Content,
@@ -11,7 +11,7 @@ import {
   ProgressContainer,
   ProgressBar,
 } from './styles'
-import { sectionMenuLinks, socialIconsData } from './headerData'
+import './iconStyles.css'
 
 export function Header() {
   const [menuClicked, setMenuClicked] = useState(false)
