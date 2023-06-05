@@ -9,23 +9,23 @@ export function AboutMe() {
           <Code>&#60;h2&#62;Hello World!&#60;/h2&#62;</Code>
           <TextContent>
             <br />
-            You know that guy who’s always on a computer, either gaming,
+            You know that guy who&apos;s always on a computer, either gaming,
             watching stuff or typing <span id="colorful-purple">
               colorful
             </span>{' '}
-            <span id="colorful-green">words</span> on a text editor? Yup, that’s
-            me!
+            <span id="colorful-green">words</span> on a text editor? Yup,
+            that&apos;s me!
             <br />
             <br />
-            I’m a software engineer based in São Paulo - Brazil, I’m currently
-            an undergraduate in Computer Engineering and since 2020 I’ve worked
-            with technologies such as JavaScript, ReactJS, NodeJS, SCSS, Git and
-            more to build powerful interfaces and APIs.
+            I&apos;m a software engineer based in São Paulo - Brazil, I&apos;m
+            currently an undergraduate in Computer Engineering and since 2020
+            I&apos;ve worked with technologies such as JavaScript, ReactJS,
+            NodeJS, SCSS, Git and more to build powerful interfaces and APIs.
             <br />
             <br />
-            At the moment I’m a Junior Developer at Binary Future, from Ukraine,
-            needless to say I’m extremely passionate about education and its
-            impact globally.
+            At the moment I&apos;m a Junior Developer at Binary Future, from
+            Ukraine, needless to say I&apos;m extremely passionate about
+            education and its impact globally.
           </TextContent>
         </Text>
       </Content>
