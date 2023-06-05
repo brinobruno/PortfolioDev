@@ -1,3 +1,4 @@
+import { skillsData } from './skillsData'
 import {
   Container,
   Content,
@@ -6,8 +7,6 @@ import {
   SkillsGrid,
   SkillsItem,
 } from './styles'
-
-import { skillsData } from './skillsData'
 
 export function Skills() {
   return (
