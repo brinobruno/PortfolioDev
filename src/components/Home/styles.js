@@ -20,22 +20,26 @@ export const Container = styled.section`
 export const Content = styled.div`
   display: flex;
   width: 100%;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
 
   @media screen and (max-width: 968px) {
     #bruno-img {
       width: 19rem;
+      height: fit-content;
     }
 
     @media screen and (max-width: 590px) {
       #bruno-img {
         width: 22rem;
+        height: fit-content;
       }
 
       @media screen and (max-width: 437px) {
         #bruno-img {
           width: 19rem;
+          height: fit-content;
         }
       }
     }
