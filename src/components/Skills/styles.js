@@ -89,11 +89,14 @@ export const SkillsItem = styled.div`
 
   img {
     padding-right: 0.875rem;
+    width: 3.625rem;
+    height: 2.75rem;
   }
 
   @media screen and (max-width: 415px) {
     img {
       width: 3.2rem;
+      height: 2.4rem;
     }
   }
 
