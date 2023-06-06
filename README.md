@@ -29,3 +29,7 @@ on cli/vscode:
 will be available at localhost:3000
 
 Happy Hacking!
+
+## TODO
+
+- [ ] Improve mobile menu
