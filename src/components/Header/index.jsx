@@ -65,6 +65,8 @@ export function Header() {
           {socialIconsData.map((icon) => {
             return (
               <NavLink
+                title={icon.name}
+                aria-label={icon.name}
                 rel="noreferrer"
                 target="_blank"
                 href={icon.url}
