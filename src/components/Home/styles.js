@@ -66,7 +66,7 @@ export const Title = styled.h1`
   }
 `
 
-export const Subtitle = styled.h4`
+export const Subtitle = styled.h2`
   font-size: var(--opening-subtitle);
   color: var(--primary-color);
   font-weight: 400;
