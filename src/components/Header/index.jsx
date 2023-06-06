@@ -54,7 +54,11 @@ export function Header() {
           <NavMenu menuClicked={menuClicked}>
             {sectionMenuLinks.map((link) => {
               return (
-                <NavLink href={link.href} key={link.name}>
+                <NavLink
+                  aria-label={link.name}
+                  href={link.href}
+                  key={link.name}
+                >
                   {link.name}
                 </NavLink>
               )
