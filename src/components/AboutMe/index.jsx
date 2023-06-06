@@ -24,7 +24,7 @@ export function AboutMe() {
             <br />
             <br />
             At the moment I&apos;m a Junior Developer at Binary Future, from
-            Ukraine, needless to say I&apos;m extremely passionate about
+            Canada, needless to say I&apos;m extremely passionate about
             education and its impact globally.
           </TextContent>
         </Text>
