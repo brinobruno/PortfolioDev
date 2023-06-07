@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import backgroundImg from '../assets/images/background.png'
+import backgroundImg from '../assets/images/background.webp'
 
 export const GlobalStyle = createGlobalStyle`
   :root {

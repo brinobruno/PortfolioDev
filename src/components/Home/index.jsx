@@ -14,7 +14,7 @@ import {
   ModalContainer,
 } from './styles'
 
-import brunoImg from '../../assets/images/brunoImg.png'
+import brunoImg from '../../assets/images/brunoImg.webp'
 import downloadIcon from '../../assets/userIcons/download.svg'
 import closeIcon from '../../assets/userIcons/close.svg'
 
