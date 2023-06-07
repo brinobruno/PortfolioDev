@@ -1,9 +1,9 @@
-import img00 from '../../assets/projectsImg/00-project.png'
-import img01 from '../../assets/projectsImg/01-project.png'
-import img02 from '../../assets/projectsImg/02-project.png'
-import img03 from '../../assets/projectsImg/03-project.png'
-import img04 from '../../assets/projectsImg/04-project.png'
-import img05 from '../../assets/projectsImg/05-project.png'
+import img00 from '../../assets/projectsImg/00-project.webp'
+import img01 from '../../assets/projectsImg/01-project.webp'
+import img02 from '../../assets/projectsImg/02-project.webp'
+import img03 from '../../assets/projectsImg/03-project.webp'
+import img04 from '../../assets/projectsImg/04-project.webp'
+import img05 from '../../assets/projectsImg/05-project.webp'
 
 export const ProjectsObject = [
   {
