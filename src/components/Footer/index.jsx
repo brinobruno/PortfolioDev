@@ -15,7 +15,11 @@ export function Footer() {
           <FooterText>São José dos Campos, São Paulo - Brazil</FooterText>
           <FooterText>brunosantos6ft@gmail.com</FooterText>
           <FooterText>
-            <a rel="noreferrer" target="_blank" href="https://natelha.blog">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://natelha.vercel.app"
+            >
               Visit my new personal blog &#123;here&#125;
             </a>
           </FooterText>
