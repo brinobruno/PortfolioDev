@@ -34,3 +34,4 @@ Happy Hacking!
 
 - [ ] Improve mobile menu
 - [ ] Update projects
+- [ ] Update content
