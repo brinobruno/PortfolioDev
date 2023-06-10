@@ -33,3 +33,4 @@ Happy Hacking!
 ## TODO
 
 - [ ] Improve mobile menu
+- [ ] Update projects
