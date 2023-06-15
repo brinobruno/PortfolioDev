@@ -40,7 +40,7 @@ export function Skills() {
           })}
         </SkillsGrid>
         <Code>
-          &#60;details&#62;I also code C++ but don’t tell
+          &#60;details&#62;I also code C++ but don&apos;t tell
           anyone&#60;/details&#62;
         </Code>
       </Content>
