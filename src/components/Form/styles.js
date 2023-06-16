@@ -62,8 +62,8 @@ export const FormInputs = styled.div`
   flex-direction: column;
 
   .form-label {
+    font-size: 0.875rem;
     color: var(--body-text-color);
-    font-weight: 700;
     padding-bottom: 0.313rem;
 
     @media screen and (max-height: 678px) {
