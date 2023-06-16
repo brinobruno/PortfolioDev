@@ -23,12 +23,8 @@ export function Skills() {
                 <img src={item.icon} alt={item.name} />
                 <div>
                   <div className="tag-divider">
-                    <p className="typeTag">{item.typeTag0}</p>
-                    {item.typeTag1 !== '' ? (
-                      <p className="typeTag">{item.typeTag1}</p>
-                    ) : (
-                      ''
-                    )}
+                    <p>{item.typeTag0}</p>
+                    {item.typeTag1 !== '' ? <p>{item.typeTag1}</p> : ''}
                   </div>
                   <div className="description-wrapper">
                     <h4>{item.name}</h4>
