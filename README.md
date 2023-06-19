@@ -24,7 +24,7 @@ If you want to run the project:
 
 on cli/vscode:
 - yarn
-- yarn start
+- yarn dev
 
 will be available at localhost:3000
 
