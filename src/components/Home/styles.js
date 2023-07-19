@@ -24,6 +24,10 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  #bruno-img {
+    width: 24.5rem;
+  }
+
   @media screen and (max-width: 968px) {
     #bruno-img {
       width: 19rem;
