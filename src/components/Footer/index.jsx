@@ -31,7 +31,7 @@ export function Footer() {
           <FooterDivider>
             <p className="last-text">
               Made with React, Styled-Components, a few libs and much study by
-              2023 ©Bruno Corrêa.
+              2024 ©Bruno Corrêa.
             </p>
             <Code>&#60;3html&#62;</Code>
           </FooterDivider>
