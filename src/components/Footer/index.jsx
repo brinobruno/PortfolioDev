@@ -25,7 +25,7 @@ export function Footer() {
           </FooterText>
           <FooterText>
             <a rel="noreferrer" target="_blank" href="https://meuport.com">
-              Visit my older portfolio &#123;here&#125;
+              Visit my older portfolio &#123;here!&#125;
             </a>
           </FooterText>
           <FooterDivider>
